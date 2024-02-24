@@ -1,0 +1,70 @@
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #2169f3;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+/* header .logo{
+  position: absolute;
+  font-size: 2em;
+  font-weight: 600;
+} */
+header .menu{
+  display: flex;
+  gap: 10px;
+}
+header .menu a{
+  position: relative;
+  text-decoration: none;
+  padding: 12px 20px;
+  color: #fff;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  
+}
+header .menu a:hover{
+  color: #000;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+}
+header .menu #seleccion{
+  position: absolute;
+  width: 116px;
+  height: 58px;
+  color: #000;
+  background: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  transition: 0.25s;
+}
+header .menu #seleccionborrar{
+  color: #000;
+}
+header .menu #seleccion::before{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: -30px;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border-bottom-right-radius: 20px;
+  box-shadow: 5px 5px 0 5px #fff;
+}
+header .menu #seleccion::after{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  right: -30px;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border-bottom-left-radius: 20px;
+  box-shadow: -5px 5px 0 5px #fff;
+}

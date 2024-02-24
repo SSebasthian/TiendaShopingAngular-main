@@ -1,0 +1,80 @@
+.bolsaCompra {
+  max-width: 1000px; /* Ancho máximo de la card */
+  margin: 130px auto; /* Centrar la card en el contenedor */
+}
+.bolsaCompra h1{
+  margin: 0 0 20px;
+  color: #000;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+}  
+
+.mat-table {
+  width: 100%;
+  padding: 0 15px;
+  background: rgba(255,255,255,.1);
+  box-shadow: 0 0 20px rgba(0,0,0,.2);
+}
+.mat-table th{
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.mat-table td a{
+  position: absolute;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+.mat-table .nombreProducto{
+  width: 450px;
+  padding-left: 135px;
+}
+.mat-table td img{
+  width: 60px;
+  height: 60px;
+}
+
+
+
+button {
+  margin-right: -10px; /* Espaciado entre el botón y el contenido de la celda */
+  background: transparent;
+  border: solid transparent;
+  cursor: pointer;
+  color: #000;
+}
+button:hover{
+  color: red;
+}
+.totalPagar{
+  max-width: 1000px; /* Ancho máximo de la card */
+  margin: -100px auto; /* Centrar la card en el contenedor */
+}
+.totalPagar h1{
+  margin: 0 0 20px;
+  color: #000;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: right;
+  padding-left: 100px;
+}  
+.totalPagar p{
+  margin: 0 0 20px;
+  color: #000;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: right;
+  padding-left: 100px;
+}
+.totalPagar a{
+  position: relative;
+  color: #000;
+  font-size: 20px;
+  float: right;
+  text-decoration: none;
+  border: solid 1px #000;
+  padding: 10px;
+}

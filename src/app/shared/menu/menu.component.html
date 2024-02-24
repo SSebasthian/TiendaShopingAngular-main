@@ -1,0 +1,30 @@
+<header>
+   
+  <nav class="menu">
+      <div id="seleccion"></div>
+      <a [routerLink]="['/home']" mat-button id=seleccionborrar>INICIO<mat-icon>home</mat-icon></a>
+      <a [routerLink]="['/servicios']" mat-button>SERVICIOS<mat-icon>style</mat-icon></a>
+      <a [routerLink]="['/home']" mat-button>PORTAFOLIO	<mat-icon>folder_special</mat-icon></a>
+      <a [routerLink]="['/home']" mat-button>¿QUIEN SOY?<mat-icon>face</mat-icon></a>
+      <a [routerLink]="['/home']" mat-button>CONTACTO<mat-icon> contacts</mat-icon></a>
+      <a [routerLink]="['/carrito']" mat-button >TIENDA<mat-icon>shopping_cart</mat-icon></a>
+      <a [routerLink]="['/productos']" mat-button>PRODUCTOS<mat-icon>widgets</mat-icon></a>
+      <a [routerLink]="['/pago']" mat-button>PAGO	<mat-icon>payment</mat-icon></a>
+  </nav>
+</header>
+
+<script>
+  let seleccion = document.querySelector('#seleccion');
+  let items = document.querySelectorAll('nav a');
+
+  function marker(e){
+    seleccion.style.left= e.offsetLeft+"px";
+    seleccion.style.width= e.offsetWidth+"px";
+  }
+
+  items.forEach(link =>{
+    link.addEventListener('click', (e) =>{
+      marker(e.target);
+    })
+  })
+</script>

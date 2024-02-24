@@ -1,0 +1,31 @@
+h1{
+  margin: 0 0 20px;
+  color: #000;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.center-content {
+  margin-top: 7%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: -webkit-center;
+  background: rgba(255,255,255,.1);
+  box-shadow: 0 0 20px rgba(0,0,0,.2);
+}
+
+.form-group{
+  width: 80%;
+  margin: -10px;
+  
+}
+
+.boton{
+  margin: 1%;
+  width: 100%;
+}
+
+.card{
+  margin-top: 5%;
+}

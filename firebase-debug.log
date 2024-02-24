@@ -1,0 +1,21 @@
+[debug] [2024-02-17T00:21:50.857Z] ----------------------------------------------------------------------
+[debug] [2024-02-17T00:21:50.863Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-17T00:21:50.863Z] CLI Version:   13.3.0
+[debug] [2024-02-17T00:21:50.864Z] Platform:      win32
+[debug] [2024-02-17T00:21:50.864Z] Node Version:  v20.11.0
+[debug] [2024-02-17T00:21:50.864Z] Time:          Fri Feb 16 2024 19:21:50 GMT-0500 (hora estándar de Colombia)
+[debug] [2024-02-17T00:21:50.865Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-17T00:21:50.875Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-17T00:21:50.876Z] > authorizing via signed-in user (ssebasthian.perez@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Kiwi-Sushi\Desktop\Programacion\Angular II\TiendaShopingAngular-main
+
