@@ -24,7 +24,7 @@ addNewProduct: any;
   
   
   constructor(private CartService: CartService){
-    this.obtenerlocalstorage()
+    // this.obtenerlocalstorage()
     
   }
   
@@ -33,9 +33,11 @@ addNewProduct: any;
   agregarArticuloTienda(producto: Producto){
     this.CartService.addNewProduct(producto)
     localStorage.setItem('Articulo',JSON.stringify(this.CartService))  
+
+    alert("se agrego en localstorage")
   }
-  obtenerlocalstorage(){
-      this.CartService = JSON.parse (localStorage.getItem('Articulo')!) 
-    }
+  // obtenerlocalstorage(){
+  //     this.CartService = JSON.parse (localStorage.getItem('Articulo')!) 
+  //   }
 
 }
